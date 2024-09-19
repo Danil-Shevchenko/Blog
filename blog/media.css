@@ -1,0 +1,19 @@
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+        height: 100vh;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .card {
+        width: 70%;
+    }
+
+}
+

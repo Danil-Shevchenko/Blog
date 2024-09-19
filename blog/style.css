@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Figtree;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #F4D04E;
+    font-family: Figtree;
+    margin: 0;
+    line-height: 150%;
+
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+.card{
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    width: 360px;
+    box-shadow: 10px 10px 1px #111111;
+}
+.picture{
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.learn{
+    background-color: #F4D04E;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 4px 12px;  
+    p{  
+        font-size: 14px;
+        font-weight: bolder;
+        margin: 0;
+        color: #111111;
+    }
+}
+
+.article{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.public{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #111111;
+}
+
+.descript{
+    font-size: 16px;
+    color: #6B6B6B;
+    margin-bottom: 0px;
+}
+
+
+.article:hover{
+    color: #F4D04E;
+    cursor: pointer;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    img{
+        border-radius: 100%;
+        width: 32px;
+        height: 32px;
+    }
+    p{
+        color: #111111;
+        font-size: 14px;
+        padding-left: 12px;
+
+        font-weight:bolder
+    }
+}
+
